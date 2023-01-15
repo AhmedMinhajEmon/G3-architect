@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@800&display=swap");
+
+/* Header section */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans";
+}
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+.container {
+  margin: 0px 180px;
+}
+/* Naviagation bar  starts*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+.navbar h1 {
+  font-weight: 600;
+  font-size: 2vw;
+}
+.navbar button {
+  border: 0;
+  margin-right: 1.5em;
+  font-size: 1vw;
+  background: none;
+  font-weight: 500;
+  color: #424242;
+  text-align: center;
+}
+/* Navbar ends */
+
+/* banner starts */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-family: "Work Sans";
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 3vw;
+  text-align: center;
+  color: #131313;
+}
+.banner p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: #727272;
+  margin-left: 15em;
+  margin-right: 10em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.banner input {
+  text-align: center;
+  padding: 1.2em 1.5em;
+  margin-bottom: 4em;
+  border-radius: 0.3em;
+  font-size: 1vw;
+  font-weight: 700;
+  color: #ffffff;
+  background: #ff900e;
+  border: none;
+}
+.banner img {
+  width: 100%;
+  margin-bottom: 5em;
+}
+@media screen and (max-width: 278px) {
+  .container {
+    margin: 0 25px;
+  }
+  .navbar {
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding-top: 1em;
+
+    margin-bottom: 1em;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3em;
+    max-width: 300px;
+  }
+  .banner p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 279px) and (max-width: 575px) {
+  .container {
+    margin: 0 50px;
+  }
+  .navbar {
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+    padding-top: 1em;
+
+    margin-bottom: 1em;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3em;
+    max-width: 300px;
+  }
+  .banner p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 900px) {
+  .container {
+    margin: 0 100px;
+  }
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+    margin-bottom: 1.5em;
+    gap: 1.5em;
+  }
+  .banner img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 4em;
+  }
+  .banner p {
+    text-align: center;
+  }
+}
+/* Header ends */
+
+/* main-section-1 */
+
+main .container {
+  padding: 3vw;
+  padding-right: 0;
+}
+.main-first {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.image-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2vw;
+  row-gap: 1.5vw;
+}
+.image-section img {
+  width: 15vw;
+}
+main input {
+  text-align: center;
+  padding: 1.2em 1.5em;
+  margin-bottom: 4em;
+  border-radius: 0.3em;
+  font-size: 1vw;
+  font-weight: 700;
+  color: #ffffff;
+  background: #ff900e;
+  border: none;
+}
+.main-first h1 {
+  font-weight: 500;
+  font-size: 2.5vw;
+  color: #727272;
+  margin: 0;
+}
+.span-one {
+  font-weight: 700;
+  font-size: 2.5vw;
+  color: #131313;
+}
+.span-two {
+  font-weight: 700;
+  color: #ff900e;
+}
+.head-section p {
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: #727272;
+  line-height: 1.7;
+}
+
+/* main-section-2 */
+
+#contain-two {
+  padding: 0;
+}
+
+.main-second {
+  display: flex;
+  gap: 1.2vw;
+}
+.second-head {
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;
+}
+.second-head h1 {
+  font-weight: 700;
+  font-size: 2.5vw;
+  color: #131313;
+  margin: 0;
+}
+.line {
+  border-left: 5px solid #ff900e;
+  height: 6vw;
+}
+
+.main-second img {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+}
+.box-info {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-bottom: 1.5vw;
+  margin: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.box-head {
+  padding-top: 1vw;
+  margin-bottom: 0;
+  font-size: 1.2vw;
+}
+.image {
+  padding-left: 3vw;
+  display: inline-block;
+}
