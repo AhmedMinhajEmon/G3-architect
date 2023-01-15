@@ -243,6 +243,15 @@ main input {
   font-size: 1.2vw;
 }
 .image {
+  position: relative;
   padding-left: 3vw;
   display: inline-block;
+}
+.image .btn{ 
+  position:absolute;
+  top: 90%;
+  left: 0%;
+  height: 100px;
+  width: 200px;
+  
 }
