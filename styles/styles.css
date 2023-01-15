@@ -327,3 +327,68 @@ main input {
   color: #727272;
   line-height: 1.7;
 }
+.fact-box{
+  
+  display: flex;
+  gap:5vw;
+  justify-content: space-evenly;
+
+  
+}
+.fact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border:1px solid #ff900e;
+  padding: 2vw;
+  border-radius:1vw ;
+}
+.fact img, h3, p{
+  padding: 0;
+  margin: 0;
+}
+.fact h3{
+  font-size: 2vw;
+  font-weight: 600;
+  color: #424242;
+
+}
+.fact p{
+  font-weight: 400;
+  font-size: 1vw;
+  color: #727272;
+}
+
+@media screen and (max-width: 278px) {
+
+  .fact-box{
+    display: grid;
+    grid-template-columns:repeat(2 ,0.5fr);
+    grid-column-gap: 2vw;
+  }
+
+  
+}
+@media screen and (min-width: 279px) and (max-width: 575px) {
+  .fact-box{
+    display: grid;
+    grid-template-columns:repeat(2 ,0.3fr);
+    grid-column-gap: 2vw;
+  }
+ 
+}
+/* Fourth section */
+
+#contain-four h1{
+  font-size: 2vw;
+  font-weight: 600;
+  color: #424242;
+  text-align: center;
+}
+#contain-four p{
+  font-weight: 400;
+  font-size: 1vw;
+  color: #727272;
+  text-align: center;
+}
