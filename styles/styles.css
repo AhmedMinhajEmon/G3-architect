@@ -229,7 +229,12 @@ main input {
   height: 60vw;
   
 }
+.left-side{
+  left: 0px;
+  width: 50%;
+}
 .box-info {
+ 
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   padding-bottom: 1.5vw;
@@ -243,6 +248,8 @@ main input {
   font-size: 1.2vw;
 }
 .image {
+  right: 0px;
+  width: 50%;
   position: relative;
   padding-left: 3vw;
   display: inline-block;
@@ -251,7 +258,72 @@ main input {
   position:absolute;
   top: 90%;
   left: 0%;
-  height: 100px;
+  height: 90px;
   width: 200px;
+  font-size: 2vw;
+  border: none;
+  border-radius: 1vw;
+  font-weight: 700;
+  color: #ffffff;
+  background: #ff900e;
   
+}
+.btn span{
+  font-size: 1.2vw;
+  font-weight:600 ;
+}
+
+@media screen and (max-width: 278px) {
+
+  .main-second{
+    gap: 2vw;
+  }
+ .main-second img{
+  width: 100%;
+  height: 100%;
+ }
+ .image {
+  padding-left: 0px;
+ }
+ .btn{
+  height: 7vw;
+  width: 15vw;
+}
+  
+}
+@media screen and (min-width: 279px) and (max-width: 575px) {
+  .main-second img{
+    width: 80%;
+    height: 80%;
+   }
+   .btn{
+    top: 75%;
+    height: 7vw;
+    width: 15vw;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1100px) {
+  .btn{
+  
+    height: 9vw;
+    width: 15vw;
+  }
+}
+
+/* Section-3 */
+#contain-three{
+  padding: 0;
+  padding-top: 2vw;
+}
+#contain-three h1{
+  font-weight: 700;
+  font-size: 2.5vw;
+  color: #131313;
+}
+#contain-three p{
+  width: 40%;
+  font-weight: 400;
+  font-size: 0.9vw;
+  color: #727272;
+  line-height: 1.7;
 }
